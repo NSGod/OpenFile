@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C133459F27273E1000B27FC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C133459E27273E1000B27FC8 /* AppDelegate.m */; };
 		C13345A127273E1200B27FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13345A027273E1200B27FC8 /* Assets.xcassets */; };
-		C13345A427273E1200B27FC8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13345A227273E1200B27FC8 /* MainMenu.xib */; };
 		C13345A727273E1200B27FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13345A627273E1200B27FC8 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C133459A27273E1000B27FC8 /* OpenFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C133459D27273E1000B27FC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C133459E27273E1000B27FC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C13345A027273E1200B27FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C13345A327273E1200B27FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C13345A527273E1200B27FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C13345A627273E1200B27FC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1726C2B27287A5D00C064E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +33,7 @@
 		C133459127273E1000B27FC8 = {
 			isa = PBXGroup;
 			children = (
+				C1726C2B27287A5D00C064E4 /* README.md */,
 				C133459C27273E1000B27FC8 /* OpenFile */,
 				C133459B27273E1000B27FC8 /* Products */,
 			);
@@ -53,12 +50,9 @@
 		C133459C27273E1000B27FC8 /* OpenFile */ = {
 			isa = PBXGroup;
 			children = (
-				C133459D27273E1000B27FC8 /* AppDelegate.h */,
-				C133459E27273E1000B27FC8 /* AppDelegate.m */,
-				C13345A027273E1200B27FC8 /* Assets.xcassets */,
-				C13345A227273E1200B27FC8 /* MainMenu.xib */,
 				C13345A527273E1200B27FC8 /* Info.plist */,
 				C13345A627273E1200B27FC8 /* main.m */,
+				C13345A027273E1200B27FC8 /* Assets.xcassets */,
 			);
 			path = OpenFile;
 			sourceTree = "<group>";
@@ -120,7 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C13345A127273E1200B27FC8 /* Assets.xcassets in Resources */,
-				C13345A427273E1200B27FC8 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,22 +125,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C13345A727273E1200B27FC8 /* main.m in Sources */,
-				C133459F27273E1000B27FC8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C13345A227273E1200B27FC8 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C13345A327273E1200B27FC8 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C13345A927273E1200B27FC8 /* Debug */ = {
@@ -181,11 +162,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Mark Douma (YP47SDZM4G)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = YP47SDZM4G;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -202,7 +181,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -241,11 +220,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Mark Douma (YP47SDZM4G)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = YP47SDZM4G;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -256,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -268,9 +245,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = YP47SDZM4G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = OpenFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,9 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = YP47SDZM4G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = OpenFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
